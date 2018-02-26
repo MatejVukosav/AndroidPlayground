@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.playground.android.vuki.services"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="Services"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+
+        <activity android:name="com.playground.android.vuki.activites.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service
+            android:name=".MyIntentService"
+            android:exported="false"/>
+
+        <service
+            android:name=".BoundService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>
