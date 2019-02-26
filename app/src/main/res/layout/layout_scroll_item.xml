@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imagekrem9"
+                android:layout_width="210dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorPrimary"
+                android:src="@android:drawable/btn_plus" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tvTitleBiskvit9krem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="biskvit"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvBiskvit9krem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 jaja, 15 dkg šećera, 15 dkg brašna, 3 žlice kakaa, 1 dcl ulja, 4 žlice mlijeka, ½ žličice praška za pecivo, 1 vanili šećer, 4 dcl mlijeka za preljevanje"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTitleNadjev9krem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Nadjev"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNadjev9krem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 dcl vrhnja za šlag, 3 žlice šećera, 40 dkg kiselog vrhnja, 8 žlica šećera u prahu, 8 žlica kokosa – po želji dodati i još."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTitleGlazura9krem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Glazura"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvGlazura9krem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15 dkg čokolade za kuhanje, 4 žlice ulja"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTitlePriprema9krem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Priprema"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvPriprema9krem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Pjenasto umuti jaja, šećer i vanili šećer. Dodajte ostale sastojke, izmiješajte i stavite u namaćen i brašnom posut lim. Pecite u prethodno zagrijanoj pećnici na 180°c oko 20 minuta. Topli biskvit prelijte mlijekom i ostavite da se ohladi.
+Za nadjev umutite vrhnje za šlag i šećer. Kiselo vrhnje i šećer u pravilu ručno izmiješajte, dodajte kokos i šlag, sve zajedno izmiješajte i stavite na hladan kolač. Rastopite čokoladu s uljem i prelijte preko kolača."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

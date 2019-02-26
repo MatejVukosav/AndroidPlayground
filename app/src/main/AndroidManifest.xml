@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.playground.android.vuki.androidplayground"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.playground.android.vuki.androidplayground">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -12,19 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".SuperAct">
-
-        </activity>
-        <activity android:name=".MediaPlayerActivity">
+        <activity android:name=".ScrollActivityTest">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainJava"/>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SuperAct"></activity>
+        <activity android:name=".MediaPlayerActivity">
+
+        </activity>
+        <activity android:name=".MainJava" />
     </application>
 
 </manifest>
